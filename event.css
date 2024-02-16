@@ -1,0 +1,332 @@
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(./font/Gilroy-Medium.ttf), format(true);
+}
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(./font/Gilroy-Bold.ttf), format(true);
+}
+@font-face {
+    font-family: "Monteserrat";
+    src: url(./font/Montserrat-VariableFont_wght.ttf),format(true);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy-Medium";
+}
+
+html,
+body {
+    color: #9F7BE1;
+    background-color: #24292E;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    /* background-color: #FFDC52; */
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vw 4vw;
+    /* background-color: #FFFFE0; */
+    border-radius: 0 0 70px 70px;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.right {
+    display: flex;
+    gap: 40px;
+    font-weight:500;
+    font-family: "Monteserrat";
+}
+
+.nav img {
+    width: 56px;
+    height: 50px;
+}
+
+.nav a>h2 {
+    /* position: absolute; */
+    font-family: 'Protest Revolution', sans-serif;
+    /* left: 50%; */
+    /* top: 50%; */
+    margin-left: 150px;
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    /* transform: translate(-50%,-50%); */
+}
+
+
+
+
+.hero{
+    width: 100%;
+}
+
+.mainhero{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+.mainhero h1::selection{
+    color:white;
+}
+.mainhero h1:hover{
+    color:#9F7BE1;
+    transition: .08s ease-in-out;
+}
+
+.mainhero h1{
+    font-family: "Monteserrat";
+    letter-spacing:-1px;
+    font-weight:600;
+    font-size: 1.5vw;
+}
+
+.bound{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bound>.hvr{
+    transform: translateY(-100%);
+}
+
+.name{
+    width: fit-content;
+    overflow: hidden;
+    display: flex;
+    gap: 25px;
+}
+.name>.hvr{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px #9F7BE1;
+    font-size: 7vw;
+    font-weight: 700;
+    line-height:1;
+    transform: translateY(100%);
+   
+}
+
+
+.mainvdo{
+    padding: 3vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.vdo{
+    position: relative;
+    overflow: hidden;
+    width:70%;
+    height:40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.vdo>video{
+    opacity: 0;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text{
+    opacity:1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    position: relative;
+    z-index:9999;
+}
+
+.text>button{
+    font-family:"Gilroy-Bold";
+    font-size: large;
+    border: 1.6px solid rgb(101, 101, 101);
+    padding: 1vw 1.5vw;
+    border-radius: 100px;
+    background-color:rgb(234, 201, 41);
+}
+
+.text>button:hover{
+    cursor: pointer;
+
+}
+
+.swiper {
+    width:42vw;
+    height:28vw;
+ }
+
+
+  .swiper-slide {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    object-fit: cover;
+    color: #fff;
+  }
+
+  .swiper-slide>img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+
+  }
+
+.mainevents{
+    padding: 0 6vw;
+}
+
+.events{
+    color: #9F7BE1;
+    /* background-color:rgb(164, 244, 164); */
+    gap:1vw;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    border-radius: 20px;
+}
+.eventcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3vw 0;
+    gap:2vw;
+}
+
+.eventdetail>p{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+footer>.cheading>.lheading {
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color:#A73034;
+    padding:1vw;
+}
+
+footer{
+    margin-top: 50px;
+}
+footer>.cheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-c {
+    width: 100%;
+    padding:3vw;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.contact-c>h1{
+    font-family: "Monteserrat";
+    font-weight:600;
+    letter-spacing:2px;
+    font-size:30px;
+    text-transform:uppercase;
+    word-spacing: 3px;
+
+}
+
+.sicon>a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.socialdiv>.sicon>a{
+    font-size:40px;
+}
+
+.socilmain{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.socialdiv{
+    width: 40vw;
+    margin-top:10px;
+    padding:1vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap: 25px;
+}
+
+.socialdiv>.sicon:hover
+{
+    scale:1.2;
+    transition: .2s;
+    cursor: pointer;
+    color: #A73034;
+}
+
+
+.contactperson{
+    margin: 20px 0;
+    padding:0 3vw;
+}
+.contactperson>h2{
+    text-align: right;
+    text-transform: capitalize;
+    line-height:2;
+    font-size:20px;
+}
+.contactperson>h2>span>a{
+    
+    color:rgb(230, 6, 6)
+
+}
+
+.carddiv{
+    background-image: linear-gradient(to bottom right, #e3d9ce , rgb(255, 255, 255));
+}

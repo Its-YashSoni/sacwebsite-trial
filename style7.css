@@ -1,0 +1,312 @@
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(./font/Gilroy-Medium.ttf), format(true);
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(./font/Gilroy-Bold.ttf), format(true);
+}
+
+@font-face {
+    font-family: "Monteserrat";
+    src: url(./font/Montserrat-VariableFont_wght.ttf), format(true);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy-Medium";
+}
+
+html,
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vw 4vw;
+    /* background-color: #FFFFE0; */
+    border-radius: 0 0 70px 70px;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.right {
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    font-family: "Monteserrat";
+}
+
+.nav img {
+    width: 56px;
+    height: 50px;
+}
+
+.nav a>h2 {
+    /* position: absolute; */
+    font-family: 'Protest Revolution', sans-serif;
+    /* left: 50%; */
+    /* top: 50%; */
+    margin-left: 150px;
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    /* transform: translate(-50%,-50%); */
+}
+
+
+.h1{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    text-align: center;
+    margin-top: 30px;
+    font-size:45px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-family: 'Protest Revolution', sans-serif;
+    color: rgb(249, 163, 24);
+}
+
+.about{
+    padding: 2vw 7vw;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+.about p{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 0 4vw;
+    line-height:1.6;
+    text-align: center;
+}
+
+.mainbranch{
+    flex-wrap:wrap;
+    width: 100%;
+    padding:2vw 3vw;
+}
+
+.branch{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+}
+
+.branchdiv{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    padding: 2vw 2vw ;
+    width:490px;
+    border-radius: 20px;
+}
+
+.branchdiv:nth-child(1){
+    background-color: rgb(245, 162, 37);
+}
+.branchdiv:nth-child(2)
+{
+    background-color: lightblue
+    
+}
+.branchdiv:nth-child(3)
+{
+    background-color: lightgreen
+    
+}
+.branchdiv:nth-child(4)
+{
+    background-color: lightpink
+    
+}
+.branchdiv:nth-child(5)
+{
+    background-color: rgba(144, 238, 144, 0.516)
+    
+}
+.branchdiv:nth-child(6)
+{
+    background-color: lightsteelblue
+    
+}
+.branchdiv:nth-child(7)
+{
+    background-color: lightseagreen
+    
+}
+
+
+ul>li{
+    
+    margin:15px 0;
+    font-size:18px;
+}
+
+.swiper {
+    width: 90%;
+    padding: 50px 30px;
+    border-radius: 20px;
+
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.swiper h2{
+    font-size: 25px;
+    font-family: 'Gilroy-Bold';
+    text-align: center;
+    color: black;
+}
+
+.swiper h4{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.swiper-slide ::selection {
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+hr {
+    align-items: center;
+    justify-content: center;
+    margin: 10px 90px 0;
+}
+
+footer>.cheading>.lheading {
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #A73034;
+    padding: 1vw;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer>.cheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-c {
+    width: 100%;
+    padding: 3vw;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.contact-c>h1 {
+    font-family: "Monteserrat";
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+
+}
+
+.sicon>a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.socialdiv>.sicon>a {
+    font-size: 40px;
+}
+
+.socilmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialdiv {
+    width: 40vw;
+    margin-top: 10px;
+    padding: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.socialdiv>.sicon:hover {
+    scale: 1.2;
+    transition: .2s;
+    cursor: pointer;
+
+}
+
+
+.contactperson {
+    margin: 20px 0;
+    padding: 0 3vw;
+}
+
+.contactperson>h2 {
+    text-align: right;
+    text-transform: capitalize;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.contactperson>h2>span>a {
+
+    color: rgb(230, 6, 6)
+}
+
+.carddiv {
+    background-image: linear-gradient(to bottom right, #e3d9ce, rgb(255, 255, 255));
+}
